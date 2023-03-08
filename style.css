@@ -4,3 +4,52 @@
     margin:0;
     box-sizing: border-box;
 }
+.df{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.sb{
+    justify-content: space-between;
+}
+body{
+    height:100vh;
+}
+header{
+    padding:1% 4%;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    
+}
+.topleft{
+    gap:40px;
+}
+header div{
+    position: relative;
+}
+input{
+    padding:7px 0 7px 35px;
+    background:rgb(240, 240, 240);
+    border:none;
+    border-radius: 4px;
+}
+header div img{
+    position: absolute;
+    max-width: 15px;
+    top:8px;
+    left:10px;
+}
+::placeholder{
+    color:rgb(109, 108, 108);
+    font-weight:400;
+    font-size:14.5px;
+}
+.topright{
+    gap:20px;
+    align-items: center;
+}
+.topright img{
+    cursor: pointer;
+}

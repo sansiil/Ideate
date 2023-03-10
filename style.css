@@ -24,13 +24,18 @@ header{
     
 }
 .topleft{
-    gap:40px;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+}
+.topleft figure{
+    justify-content: center;
 }
 header div{
     position: relative;
 }
 input{
-    padding:7px 0 7px 35px;
+    padding:10px 0 10px 35px;
     background:rgb(240, 240, 240);
     border:none;
     border-radius: 4px;
@@ -38,7 +43,7 @@ input{
 header div img{
     position: absolute;
     max-width: 15px;
-    top:8px;
+    top:10px;
     left:10px;
 }
 ::placeholder{
@@ -52,4 +57,67 @@ header div img{
 }
 .topright img{
     cursor: pointer;
+}
+main{
+    padding:1.4%;
+    border-style: solid;
+    height:100%;
+}
+.mainleft{
+    border:none;
+    max-width:12.8%;
+    background:rgb(75,53,200);
+    border-radius: 7px;
+    padding: 1.2em 0;
+}
+li figure{
+    padding:15px 0 15px 2.3em;
+    gap:7px;
+}
+ul{
+   list-style: none;
+}
+a{
+    text-decoration: none;
+    color:rgb(206, 203, 203);
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.mainleft img{
+    cursor: pointer;
+}
+.reportbox{
+    padding:13px;
+    border-radius: 4px;
+    background: rgb(28, 8, 143);
+    color:white;
+    margin:0 0.7em;
+}
+h4{
+font-size: 0.88em;
+margin-bottom: 0.7em;
+}
+.reportbox p{
+    font-size: 0.8em;
+    color:rgb(202, 202, 202);
+    line-height: 1.5em;
+}
+.percentage{
+    align-items:end;
+}
+.percentage .value{
+    width: 100%;
+    border-style: solid;
+    margin-top: 4px;
+    border-radius:7px;
+    border:none;
+    height:7px;
+    /*background:linear-gradient(to right, white 64%,rgb(192, 192, 192) 36%)*/
+    background:rgb(177, 175, 175);
+}
+.six4{
+    width:64%;
+    background: white;
+    border:none;
+    border-radius: 7px;
 }
